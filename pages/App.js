@@ -11,7 +11,7 @@ import { loader as movieLoader } from "./Movie.js";
 const router = createBrowserRouter(createRoutesFromElements(
     <Route>
       <Route 
-        path="/"
+        path="//"
         loader={allMoviesLoader}
         errorElement={<Error />}
         element={<Main />}
